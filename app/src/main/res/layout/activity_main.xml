@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/ivImage"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="16dp"
@@ -35,7 +36,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Cat" />
+            android:text="Cat"
+            android:onClick="onRadioClick"/>
 
         <RadioButton
             android:id="@+id/btnDog"
@@ -43,7 +45,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Dog" />
+            android:text="Dog"
+            android:onClick="onRadioClick" />
 
         <RadioButton
             android:id="@+id/btnRabbit"
@@ -51,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Rabbit" />
+            android:text="Rabbit"
+            android:onClick="onRadioClick" />
 
         <RadioButton
             android:id="@+id/btnSnake"
@@ -59,7 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="Snake" />
+            android:text="Snake"
+            android:onClick="onRadioClick" />
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
