@@ -28,7 +28,7 @@ Images can be _loaded on-demand_ with automatically generated asynchronous netwo
 Glide.with(context).load("http://goo.gl/gEgYUd").into(imageView);
 ```
 
-## Purpose of this demo
+## On to the demo...
 
 The purpose of this demo is to provide a brief introduction to the Glide library.
 
@@ -42,7 +42,7 @@ When the device is put into **_airplane mode_**:
 
 ![Demo part 2](https://i.imgur.com/MUMShBr.gif)
 
-_What happened???_  The images are appearing **_instantly_**, and with **no network**!
+_What happened???_  The images are appearing **_instantly_**, and the device has **no network connection**!
 
 On each call, Glide intelligently determines [the most efficient way](https://bumptech.github.io/glide/doc/caching.html#caching-in-glide) to load an image.
 
@@ -50,7 +50,7 @@ This means that Glide will find and load an image _from cache_, if it exists, an
 
 ## Conclusion
 
-This demonstrates the usefulness and power that the Glide library provides within such **short syntax**.
+This demonstrates the _usefulness_ and **power** that the Glide library provides within such **short syntax**.
 
 It is easy to see that Glide has a place in even the simplest of Android projects.
 
